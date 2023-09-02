@@ -1,5 +1,5 @@
 name: Hello World workflow
-on
+on:
   push:
     branches:
       - master
