@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: "dumb github context"
-        run: echo "${{ toJSON(github.event) }}" | jq
+        run: echo '${{ toJSON(github.event) }}' | jq
         shell: bash
