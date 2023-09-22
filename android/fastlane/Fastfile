@@ -16,8 +16,18 @@
 default_platform(:android)
 
 platform :android do
+  #first lane
   desc "Runs all the tests"
   lane :test do
     print "Fastlane works successfully"
   end
+
+  #second lane
+  desc "Prepare Android Debug Build"
+  lane :build_android_debug do
+    gradle(
+      task: "assemble"
+    )
+  end
+
 end
