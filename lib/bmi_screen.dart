@@ -50,7 +50,7 @@ class _BMIScreenState extends State<BMIScreen> {
                             children: [
                               Icon(
                                 Icons.male,
-                                size: 70,
+                                size: 71,
                               ),
                               SizedBox(
                                 height: 15,
